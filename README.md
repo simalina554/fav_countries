@@ -1,4 +1,4 @@
-Lost between the pines and the tides 🌊🌲
+### Lost between the pines and the tides 🌊🌲<br>
 An aesthetic web project exploring the atmosphere of five different countries: Italy, Finland, South Korea, the Netherlands, and Norway.
 
 ### ✨ Features:
