@@ -1,0 +1,193 @@
+:root {}
+
+* {
+    margin: 0;
+    font-family: "Caveat", cursive;
+}
+
+.welcome {
+    background: linear-gradient(#53768c, #cbd0d2);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.about img {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px #46707e;
+}
+
+.about h1 {
+    line-height: 1.6;
+    font-size: 40px;
+}
+
+.five_worlds {
+    margin: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+#country,
+#country_hover {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid #604637;
+    display: block;
+}
+
+.country {
+    width: 350px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.country_a {
+    position: relative;
+}
+
+#country {
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    opacity: 1;
+}
+
+#country_hover {
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    opacity: 0;
+}
+
+.country_a:hover #country{
+    opacity: 0;
+}
+
+.country_a:hover #country_hover{
+    opacity: 1;
+}
+
+.country:hover{
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.inspiration {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    align-items: center;
+    gap: 60px;
+}
+
+.inspiration img {
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 1px #46707e;
+}
+
+.p_quot blockquote {
+    font-family: "Chiron Sung HK", serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.bye{
+    background: linear-gradient(#cbd0d2, #53768c);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 150px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.img img{
+    border-radius: 10px;
+    height: 500px;
+}
+
+.img img:hover{
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+.korea .welcome{
+    background: linear-gradient(#5b90c3, #dca8c2);
+}
+
+.korea .bye{
+    background: linear-gradient(#dca8c2, #5b90c3);
+}
+
+.finland .welcome{
+    background: linear-gradient(#2ca6d5, #f0f0f0);
+}
+
+.finland .bye{
+    background: linear-gradient(#f0f0f0, #2ca6d5);
+}
+
+.italy .welcome{
+    background: linear-gradient(#115e3e,#fff, #930e12);
+}
+
+.italy .bye{
+    background: linear-gradient(#930e12,#fff, #115e3e);
+}
+
+.norway .welcome{
+    background: linear-gradient(#930e12,#fff, #146ea5);
+}
+
+.norway .bye{
+    background: linear-gradient(#146ea5, #fff, #930e12);
+}
+
+.netherlands .welcome{
+    background: linear-gradient(#a31221,#fff, #146ea5);
+}
+
+.netherlands .bye{
+    background: linear-gradient(#146ea5, #fff, #a31221);
+}
+
+.hello{
+    border-radius: 10px;
+    position: fixed;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello p{
+    font-size: 40px;
+}

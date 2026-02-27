@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Italy</title>
+</head>
+
+<body class="italy">
+    <section class="welcome">
+        <h1>Mi sono perso.</h1>
+    </section>
+    <div class="hello">
+        <p>Salve!🙃</p>
+    </div>
+    <section class="img">
+        <img src="./img/italy/1.jpg" alt="">
+        <img src="./img/italy/2.jpg" alt="">
+        <img src="./img/italy/3.jpg" alt="">
+        <img src="./img/italy/4.jpg" alt="">
+        <img src="./img/italy/5.jpg" alt="">
+        <img src="./img/italy/6.jpg" alt="">
+        <img src="./img/italy/7.jpg" alt="">
+        <img src="./img/italy/8.jpg" alt="">
+        <img src="./img/italy/9.jpg" alt="">
+    </section>
+    <section class="bye">
+        <h1>Enjoy the Italy.</h1>
+    </section>
+    <script>
+        window.onload = function () {
+            var hello_div = document.querySelector(".hello");
+            hello_div.style.background = "#dfcace";
+            hello = document.querySelector(".hello");
+            hello.style.opacity = "1";
+            setTimeout(() => {
+                hello.style.opacity = "0";
+            }, 1500)
+        };
+    </script>
+</body>
+
+</html>

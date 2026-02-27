@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Netherlands</title>
+</head>
+
+<body class="netherlands">
+    <section class="welcome">
+        <h1>Ik ben verdwaald.</h1>
+    </section>
+    <div class="hello">
+        <p>Hey!😊</p>
+    </div>
+    <section class="img">
+        <img src="./img/netherlands/1.jpg" alt="">
+        <img src="./img/netherlands/2.jpg" alt="">
+        <img src="./img/netherlands/3.jpg" alt="">
+        <img src="./img/netherlands/4.jpg" alt="">
+        <img src="./img/netherlands/5.jpg" alt="">
+        <img src="./img/netherlands/6.jpg" alt="">
+        <img src="./img/netherlands/7.jpg" alt="">
+        <img src="./img/netherlands/8.jpg" alt="">
+        <img src="./img/netherlands/9.jpg" alt="">
+    </section>
+
+    <section class="bye">
+        <h1>Enjoy the Netherlands.</h1>
+    </section>
+    <script>
+        window.onload = function () {
+            var hello_div = document.querySelector(".hello");
+            hello_div.style.background = "#a0d4cd";
+            hello = document.querySelector(".hello");
+            hello.style.opacity = "1";
+            setTimeout(() => {
+                hello.style.opacity = "0";
+            }, 1500)
+        };
+    </script>
+</body>
+
+</html>
